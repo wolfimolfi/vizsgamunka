@@ -1,0 +1,39 @@
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="kapcsolat.css">
+<html lang="hu">
+<title>kapcsolat</title>
+<head>
+</head>
+<body>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Vedd fel velem a kapcsolatot!</h2>
+    <p>Hagyj üzenetet:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="Ágika.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Keresztnév</label>
+        <input type="text" id="fname" name="firstname" placeholder="Keresztnév">
+        <label for="lname">Vezetéknév</label>
+        <input type="text" id="lname" name="lastname" placeholder="Vezetéknév">
+        <label for="country">Ország</label>
+        <select id="country" name="ország">
+          <option value="australia">Magyarország</option>
+          <option value="canada">Szlovákia</option>
+          <option value="usa">Románia</option>
+        </select>
+        <label for="subject">Üzenet tárgya</label>
+        <textarea id="subject" name="subject" placeholder="Írj valamit nekem!Nem fogom megkapni!" style="height:170px"></textarea>
+        <input type="submit" value="Küld el!">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

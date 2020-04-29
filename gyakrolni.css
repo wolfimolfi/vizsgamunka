@@ -1,0 +1,95 @@
+head
+{
+background-color:red;
+}
+
+h1
+{
+	color:white;
+	font-family:Arial Black;
+	text-align:center;
+	border:solid lightBlue;ű
+	border-radius:25px;
+	background-color:darkBlue;
+	
+
+}
+
+
+body
+{margin:none;
+}
+
+.parallax
+{
+	background-image: url("gyakorolni.jpg");
+	height: 800px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p
+{
+	font-size:20px;
+	font-family: Times New Roman;
+	border:solid;
+	background-color:lightBlue;
+	margin-right:200px;
+	margin-left:200px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
